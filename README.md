@@ -22,3 +22,7 @@ https://bitespeed-identity-reconciliation-ro5q.onrender.com/identify
    "secondaryContactIds": []
  }
 }
+
+curl -X POST https://bitespeed-identity-reconciliation-ro5q.onrender.com/identify \
+-H "Content-Type: application/json" \
+-d '{"email":"test@gmail.com","phoneNumber":"999999"}'
